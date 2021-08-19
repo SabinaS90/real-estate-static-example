@@ -1,0 +1,80 @@
+@import url("assets/fonts/fonts.css");
+body {
+		margin: 0;
+}
+
+.search-section {
+		height: 100vh;
+		background-image: url("/assets/imgs/search-section/search-section-back.svg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+.search-section__main--content {
+		width: 86%;
+		height: calc(100% - 42px);
+		background: linear-gradient(0.87deg, rgba(2, 55, 135, 0.9) 0.69%, rgba(81, 38, 174, 0.4736) 100.48%, rgba(38, 92, 174, 0.0102906) 100.49%, rgba(195, 195, 196, 0.00520833) 100.5%, #76A6EF 100.51%);
+		padding-top: 42px;
+		padding-left: 7%;
+		padding-right: 7%;
+		color: white;
+}
+.search-section__nav-bar {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+}
+.search-section__nav-bar ul {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		font-family: "Roboto";
+		list-style-type: none;
+		width: 60%;
+		padding-right: 15%;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}
+.search-section__nav-bar-img {
+		width: 40%;
+}
+.search-section__nav-bar ul > li {
+		cursor: pointer;
+}
+.search-section__main-header {
+		font-family: "Nunito", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 60px;
+		line-height: 82px;
+		margin-top: 7%;
+		margin-bottom: 3%;
+}
+.search-section__sub-header {
+		font-family: "Nunito", sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 29px;
+		line-height: 40px;
+		margin-top: 0%;
+}
+.search-section__search-box {
+		width: 100%;
+		height: 20%;
+		background: #FFFFFF;
+		-webkit-box-shadow: 6px 9px 59px 3px rgba(0, 0, 0, 0.01);
+		        box-shadow: 6px 9px 59px 3px rgba(0, 0, 0, 0.01);
+		margin-top: 10%;
+}
