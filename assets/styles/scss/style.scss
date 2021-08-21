@@ -64,12 +64,50 @@ body {
         margin-top: 0%;
     }
     &__search-box {
-        width: 100%;
+        width: 84%;
         height: 20%;
         background: #FFFFFF;
         box-shadow: 6px 9px 59px 3px rgba(0, 0, 0, 0.01);
         margin-top: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 1.5%;
 
     }
+    &-search-box-fields--small {
+        width:23%;
+        height: 100%;
+        flex-direction: row;
+        display: grid;
+
+    }
+
+    &__field-box {
+        width: 100%;
+        height: 75%;
+        background: #FFF0CB;
+        &--large {
+            width: 77%;
+            
+        }
+        
+    } 
+
+    &-search-box-fields--large {
+        flex-direction: row;
+
+       
+
+    }
+
+    &__search-btn {
+
+    }
+
+    
 }
 
